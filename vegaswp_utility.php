@@ -36,6 +36,11 @@
 
 include 'disable_toolbar/disable-toolbar.php';
 
+if (!function_exists('duplicate_post_plugin_actions')) {
+  include 'duplicate-post/duplicate-post.php';
+}
+
+
 
 
  ?>
